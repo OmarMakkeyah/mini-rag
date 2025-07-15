@@ -1,0 +1,44 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Conda environment
+*.conda
+*.ipynb_checkpoints
+*.env
+*.env.*
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Conda installer or setup scripts
+Miniconda3-latest-Linux-x86_64.sh
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Package builds
+build/
+dist/
+*.egg-info/
+
+# Secrets
+*.pem
+*.key
+*.crt
