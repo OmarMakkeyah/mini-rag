@@ -4,8 +4,11 @@ class Settings(BaseSettings):
     app_name:str
     app_version:str
     key:str
-    class Config:
-        env_file = ".env"
+    File_Allowed_Types:list
+    File_Max_Size:int
+
+    model_config = SettingsConfigDict(env_file=".env")
+
         
 def get_settings():
     return Settings()
